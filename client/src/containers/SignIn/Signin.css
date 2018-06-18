@@ -1,0 +1,120 @@
+.signin {
+  font-family: 'Nunito Sans', sans-serif;
+
+  text-align: center;
+}
+
+.signin__title {
+  color: #e56590;
+  font-size: 32px;
+}
+
+.signin__sub-title {
+  color: #4a4a4a;
+  font-size: 28px;
+}
+
+.signin__intro {
+  color: #d8d8d8;
+  font-size: 14px;
+}
+
+.signin__form {
+  width: 500px;
+
+  margin: 0 auto;
+}
+
+.signin__label {
+  display: block;
+  position: relative;
+
+  width: 100%;
+
+  text-align: left;
+}
+
+.signin__label-text {
+  display: inline-block;
+
+  margin-bottom: 5px;
+
+  font-weight: 700;
+
+  color: #4a4a4a;
+
+  transform: translate(20px, -28px);
+  transition: transform 0.3s ease-in-out;
+}
+
+.signin__input {
+  padding: 10px 20px;
+
+  width: 100%;
+
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 16px;
+
+  color: #4a4a4a;
+
+  border: 1px solid #d8d8d8;
+  border-radius: 5px;
+
+  box-sizing: border-box;
+}
+
+.signin__input:focus ~ .signin__label-text,
+.signin__input:valid ~ .signin__label-text {
+  transform: translate(0, -60px);
+}
+
+.signin__btn {
+  padding: 20px;
+
+  width: 350px;
+
+  color: #fff;
+
+  font-size: 16px;
+
+  border: none;
+  border-radius: 5px;
+
+  background-color: #ffb88c;
+
+  cursor: pointer;
+
+  transition: background-color 0.3s ease-in-out;
+}
+
+.signin__btn:hover {
+  background-color: #e56590;
+}
+
+.signin__instruction {
+  width: 25%;
+
+  margin: 20px auto;
+
+  font-size: 14px;
+
+  color: #d8d8d8;
+
+  text-align: center;
+}
+
+::placeholder {
+  color: #d8d8d8;
+}
+
+.form__group {
+  margin-bottom: 10px;
+}
+
+.form__error-text {
+  margin: 10px 0 20px;
+
+  color: #f00;
+
+  text-align: left;
+}
